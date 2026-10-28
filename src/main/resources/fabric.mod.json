@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "autoelytra",
+  "version": "${version}",
+  "name": "Auto Elytra",
+  "description": "Startet den Elytra-Flug automatisch, wenn man in der Luft auf die Elytra wechselt.",
+  "environment": "client",
+  "entrypoints": { "client": ["de.example.autoelytra.AutoElytra"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "fabric-api": "*" }
+}
